@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não se mata Gih</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">  
+    <script>
+        function showContent() {
+            document.getElementById("image").style.display = "block";
+            document.getElementById("text").style.display = "block";
+            document.getElementById("botao").style.display = "none";
+
+        }
+
+    </script>      
+</head>
+<body>
+    <iframe 
+        width="0" 
+        height="0" 
+        src="https://www.youtube.com/embed/n3ZYBVxzEfE?autoplay=1&loop=1&playlist=ID_DO_VIDEO" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+    </iframe>
+
+    <header>
+        <h1>Quem é o amor da minha vida?</h1>
+    </header>
+    <main>
+        <div id="container">
+            <button id="botao" onclick="showContent()">Quem?</button>
+            <img id="image" src="img/photo_4976686410010570168_y.jpg" alt="" style="display: none;">
+            <h2 id="text" style="display: none;">Você <3</h2>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Fica feliz por favor</p>
+    </footer>
+</body>
+</html>

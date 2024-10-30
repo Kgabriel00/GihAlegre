@@ -1,0 +1,56 @@
+*{
+    font-family: Signika Negative;
+    color: rgb(255, 177, 193);
+}
+
+header{
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: rgb(65, 13, 23);
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width:200px ;
+    border-radius: 50%;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 16px;
+    background-color:  rgb(255, 177, 193);
+    color:rgb(65, 13, 23) ;
+    font-weight: bolder;
+    margin-top: 40%;
+    margin-bottom:30px ;
+    cursor: pointer;
+}
+
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
